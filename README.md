@@ -21,9 +21,29 @@ For Tokanization <a href="https://huggingface.co/Ahmad/parsT5-base">Ahmad/parsT5
 
 
 <p align="center">
-<img src="https://i.imgur.com/7gyrJ2l.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7gyrJ2l.jpg" height="60%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<h2>Loss Curves</h2>
+You can see the Training Loss and validation loss during the training process, below. These plots are generated using TensorBoardLogger. You can read more about
+it <a href="https://pytorch-lightning.readthedocs.io/en/stable/extensions/generated/pytorch_lightning.loggers.TensorBoardLogger.html">here</a>.
+<h3>Training Loss</h3>
+
+<p align="center">
+<img src="https://i.imgur.com/bVAGCDM.png" height="400px"/>
+<br />
+<br />
+
+<h3>Validation Loss</h3>
+<p align="center">
+<img src="https://i.imgur.com/Yngd4ca.png" height="400px"/>
+<br />
+<br />
+
+
+
+
 
 
 
